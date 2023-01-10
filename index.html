@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+
+<body>
+
+  <header class="nav__bar__container">
+
+    <img src="./logo.svg" alt="logo" class="nav__bar__logo">
+
+    <div class="menu__container__show">
+
+      <ul class="nav__bar__list">
+        <li class="list__item"><a href="#">Home</a></li>
+        <li class="list__item"><a href="#">New</a></li>
+        <li class="list__item"><a href="#">Popular</a></li>
+        <li class="list__item"><a href="#">Trending</a></li>
+        <li class="list__item"><a href="#">Categories</a></li>
+        <img src="./icon-menu-close.svg" alt="close menu" class="close__menu__icon">
+      </ul>
+
+    </div>
+
+    <div class="mobil__menu__container"><img src="./icon-menu.svg" alt="" class="menu__icon"></div>
+
+  </header>
+
+  <main class="main__container">
+
+    <section class="intro__container">
+
+      <img src="./image-web-3-desktop.jpg" alt="main imagen" class="intro__container__img">
+
+      <div class="intro__text">
+        <h1 class="intro__title">The Bright Future of Web 3.0?</h1>
+
+        <div class="intro__text__box">
+          <p class="intro__paragraph">
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+            But is it really fulfilling its promise?
+          </p>
+          <button class="intro__submit">READ MORE</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="news__container">
+
+      <h1 class="news__title">New</h1>
+
+      <div class="news__preview">
+        <div class="news__item">
+          <h1 class="news__item__title">Hydrogen VS Electric Cars</h1>
+          <p class="news__item__paragraph">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <hr class="div__separation">
+        <div class="news__item">
+          <h1 class="news__item__title">The Downsides of AI Artistry</h1>
+          <p class="news__item__paragraph">What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <hr class="div__separation">
+        <div class="news__item" id="last__item">
+          <h1 class="news__item__title">Is VC Funding Drying Up?</h1>
+          <p class="news__item__paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="article__section">
+
+      <article class="article__container">
+        <img src="./image-retro-pcs.jpg" alt="imagen" class="article__img">
+        <div class="article__text__container">
+          <h1 class="article__number">01</h1>
+          <h2 class="article__title">Reviving Retro PCs</h2>
+          <p class="article_content">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </article>
+      <article class="article__container">
+        <img src="./image-top-laptops.jpg" alt="imagen" class="article__img">
+        <div class="article__text__container">
+          <h1 class="article__number">02</h1>
+          <h2 class="article__title">Top 10 Laptops of 2022</h2>
+          <p class="article_content">Our best picks for various needs and budgets.</p>
+        </div>
+      </article>
+      <article class="article__container">
+        <img src="./image-gaming-growth.jpg" alt="imagen" class="article__img">
+        <div class="article__text__container">
+          <h1 class="article__number">03</h1>
+          <h2 class="article__title">The Growth of Gaming</h2>
+          <p class="article_content">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </article>
+    </section>
+
+    <script src="./activeMenu.js"></script>
+
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Eduardo Ruiz</a>.
+  </footer>
+
+</body>
+</html>
